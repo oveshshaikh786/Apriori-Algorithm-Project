@@ -49,38 +49,38 @@ Apriori-Algorithm-Project/
    cd Apriori-Algorithm-Project
 
 2. Create and activate virtual environment
-    ```bash
-  python -m venv .venv
-  source .venv/Scripts/activate   # Windows
-  # OR
-  source .venv/bin/activate       # macOS/Linux
+   ```bash
+   python -m venv .venv
+   source .venv/Scripts/activate   # Windows
+ # OR
+   source .venv/bin/activate       # macOS/Linux
 
 3. Install dependencies
-  ```bash
-  pip install -r requirements.txt
+   ```bash
+     pip install -r requirements.txt
 
 4. Run Flask app
    ```bash
-  flask --app apriori_shaikhovesh_app run
+     flask --app apriori_shaikhovesh_app run
 
 5. Open browser → http://127.0.0.1:5000
 
 
 ## 🌐 Deployment on Render
-1.Push this repo to GitHub.
+1. Push this repo to GitHub.
 2. On Render, create a New Web Service:
 
 - Build Command:
   ```bash
-  pip install -r requirements.txt
+     pip install -r requirements.txt
 
 - Start Command:
   ```bash
-  gunicorn apriori_shaikhovesh_app:app
+     gunicorn apriori_shaikhovesh_app:app
 
 - Environment Variables:
-  RENDER=true
-  SECRET_KEY=your_random_secret
+     RENDER=true
+     SECRET_KEY=your_random_secret
 
 3. Health check path: /health
 4. Visit your Render URL (e.g. https://apriori-algorithm-project.onrender.com).
@@ -106,3 +106,4 @@ eggs
 ## ✨ Author
 - 👨‍💻 Ovesh Shaikh
 - 📧 oveshshaikh814@gmail.com
+
