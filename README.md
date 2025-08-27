@@ -27,8 +27,7 @@ The app allows you to upload a CSV dataset, set a minimum support threshold, and
 ---
 
 ## 📂 Project Structure
-Apriori-Algorithm-Project/
-│
+```Apriori-Algorithm-Project/
 ├── apriori_shaikhovesh_app.py # Flask web app
 ├── apriori_123456.py # Apriori algorithm implementation
 ├── requirements.txt # Dependencies
@@ -105,6 +104,7 @@ eggs
 ## ✨ Author
 - 👨‍💻 Ovesh Shaikh
 - 📧 oveshshaikh814@gmail.com
+
 
 
 
