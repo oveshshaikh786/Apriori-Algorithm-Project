@@ -45,24 +45,22 @@ Apriori-Algorithm-Project/
 
 1. **Clone the repo**
    ```bash
-   git clone https://github.com/oveshshaikh786/Apriori-Algorithm-Project.git
-   cd Apriori-Algorithm-Project
+      git clone https://github.com/oveshshaikh786/Apriori-Algorithm-Project.git
+      cd Apriori-Algorithm-Project
 
 2. Create and activate virtual environment
    ```bash
-   python -m venv .venv
-   source .venv/Scripts/activate   # Windows
- # OR
-   ```bash
-   source .venv/bin/activate       # macOS/Linux
+      python -m venv .venv
+      source .venv/Scripts/activate   # Windows
+      source .venv/bin/activate       # macOS/Linux
 
 3. Install dependencies
    ```bash
-     pip install -r requirements.txt
+      pip install -r requirements.txt
 
 4. Run Flask app
    ```bash
-     flask --app apriori_shaikhovesh_app run
+      flask --app apriori_shaikhovesh_app run
 
 5. Open browser → http://127.0.0.1:5000
 
@@ -107,5 +105,6 @@ eggs
 ## ✨ Author
 - 👨‍💻 Ovesh Shaikh
 - 📧 oveshshaikh814@gmail.com
+
 
 
