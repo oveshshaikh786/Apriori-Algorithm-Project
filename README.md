@@ -53,6 +53,7 @@ Apriori-Algorithm-Project/
    python -m venv .venv
    source .venv/Scripts/activate   # Windows
  # OR
+   ```bash
    source .venv/bin/activate       # macOS/Linux
 
 3. Install dependencies
@@ -79,8 +80,8 @@ Apriori-Algorithm-Project/
      gunicorn apriori_shaikhovesh_app:app
 
 - Environment Variables:
-     RENDER=true
-     SECRET_KEY=your_random_secret
+     - RENDER=true
+     - SECRET_KEY=your_random_secret
 
 3. Health check path: /health
 4. Visit your Render URL (e.g. https://apriori-algorithm-project.onrender.com).
@@ -106,4 +107,5 @@ eggs
 ## ✨ Author
 - 👨‍💻 Ovesh Shaikh
 - 📧 oveshshaikh814@gmail.com
+
 
